@@ -1,82 +1,109 @@
-# ShowPulse
-![front part of app](https://github.com/Akash-298/fullstack-movie-booking-app/assets/105929312/9787ee17-78b8-40e7-9b60-7126d9e1e895)
-![Screenshot 2023-09-27 084227](https://github.com/Akash-298/fullstack-movie-booking-app/assets/105929312/5e144d98-b221-4ce8-a2ba-1b09bf61233b)
+# 🍿 Popcorn Go - Full Stack Movie Booking App
 
-![Screenshot 2023-09-27 084610](https://github.com/Akash-298/fullstack-movie-booking-app/assets/105929312/66952644-5ce6-42da-8848-ea05fb2f366a)
-![Screenshot 2023-09-27 084859](https://github.com/Akash-298/fullstack-movie-booking-app/assets/105929312/22e97e9e-c5f7-4910-8a71-e6e9b6711629)
+**Popcorn Go** is a fully functional, beautifully crafted online movie booking platform built with the powerful **MERN stack** (MongoDB, Express, React, Node.js). This project demonstrates the development of a robust, scalable web application that covers key functionality from **user authentication** to **admin management** and **real-time bookings**.
 
+---
 
+## 🚀 Features
 
+- 🔐 JWT-based User Authentication
+- 👨‍💼 Admin Panel to manage movies and bookings
+- 🎟️ Seamless Movie Booking Experience
+- 👥 Advanced User Roles and Permissions
+- ⚡ Performance-Optimized Design
+- 🌐 Modern Responsive UI with Material UI
+- 📦 State Management using Redux Toolkit
 
-## Table of Contents
-- [Project Description](#project-description)
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [Contact Information](#contact-information)
+---
 
+## 🛠️ Tech Stack
 
-## Project Description
+| Tech            | Description                             |
+|-----------------|-----------------------------------------|
+| MongoDB         | Database for storing users, movies, etc |
+| Express.js      | Backend framework for APIs              |
+| React.js        | Frontend JavaScript library             |
+| Node.js         | JavaScript runtime environment          |
+| Mongoose        | ODM for MongoDB                         |
+| Redux Toolkit   | For managing app-wide state             |
+| Material UI     | UI component library                    |
+| Axios           | For making HTTP requests                |
+| JWT             | For secure authentication               |
+| Bcrypt          | For password hashing                    |
 
-**Full Stack Movie Booking App** is an advanced project that demonstrates the development of a robust and scalable online movie booking platform. It covers all the necessary steps and technologies required for building an efficient movie booking system using the MERN (MongoDB, Express, React, Node.js) stack. 
+---
 
-Learned how to implement features such as user authentication, admin functionality, booking management, and multi-user roles. Additionally, this project adheres to best practices for performance optimization.
+## 📂 Folder Structure
 
-## Features
+PopcornGo/
+├── client/ # React frontend
+├── server/ # Express backend
+├── .env # Environment variables
+├── package.json # Main config
+└── README.md # This file
 
-- User authentication with JWT
-- Admin functionality for managing movies and bookings
-- Seamless movie booking experience
-- Advanced user roles and permissions
-- Performance-optimized design
-- And much more!
+---
 
-## Demo
+## 🔧 Installation & Setup
 
-- [Demo Video 1](insert_demo_video_url_1_here)
-- [Demo Video 2](insert_demo_video_url_2_here)
+Follow these steps to get the project running on your local machine:
 
-## Installation
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/SamyakJain0007/MoviePopcorn/
+   cd PopcornGo
 
-Getting your development environment set up is fairly straightforward:
+### 2. Install dependencies
 
-1. Clone the repository to your local machine.
-2. Install Node.js and MongoDB if you haven't already.
-3. Run `npm install` to install project dependencies.
+- **Client:**
+```bash
+cd client
+npm install
+```
 
-## Usage
+- **Server:**
+```bash
+cd ../server
+npm install
+```
 
-1. Start the Node.js server by running `npm start` in the server directory.
-2. Start the React app by running `npm start` in the client directory.
-3. Access the app in your browser at `http://localhost:3000`.
+### 3. Setup environment variables  
+In the `server` folder, create a `.env` file with the following content:
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=8000
+```
 
-## Technologies Used
+### 4. Run the app
 
-- MongoDB with Mongoose
-- Node.js
-- Express.js
-- Password Encryption in MERN
-- Admin Accounts
-- JWT Authentication
-- React.js
-- Material UI
-- Redux Toolkit
-- Axios
-- ES6
+- Start the backend server:
+```bash
+npm start
+```
 
-## Contributing
+- Start the frontend app (in a new terminal):
+```bash
+cd client
+npm start
+```
 
-Contributions are welcome! If you'd like to contribute to this project.
+### 5. Open in browser:
+```
+http://localhost:3000
+```
 
-## Contact Information
+---
 
-If you have any questions, feedback, or would like to get in touch, please reach out to:
+## 🧠 What I Learned
 
-- Akash Chikhalonde
-- Email: akash.c.c298@gmail.com
-- GitHub: https://github.com/Akash-298
+- Built a production-ready full-stack application from scratch.
+- Understood role-based access control (Admin vs User).
+- Learned how to connect frontend with backend using Axios.
+- Secured authentication using **JWT & Bcrypt**.
+- Styled the UI using **Material UI** and custom CSS.
+- Applied Redux Toolkit for global state management.
 
-
+👨‍💻 Author
+Samyak Jain
+Made with ❤️ by a full-stack developer in the making!
